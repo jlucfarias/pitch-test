@@ -1,20 +1,22 @@
+@snap[midpoint span-100 text-06]
 # Proposta de Processo de Trabalho
+@snapend
 
 ---
 @title[Etapas do Processo]
 
-@snap[north span-50]
+@snap[north-west span-35]
 ## Etapas
 @snapend
 
-@snap[north span-50]
-![CICD](assets/img/cicd.png)
+@snap[midṕoint span-100]
+![Process](assets/img/process.png)
 @snapend
 
----
+---?color=linear-gradient(180deg, white 26%, black 0%)
 @title[Concepção]
 
-@snap[north span-50]
+@snap[north span-60]
 ![Concepção](assets/img/conception.png)
 ## Concepção
 @snapend
@@ -23,40 +25,35 @@
 Criação da demanda (issue)
 @snapend
 
----
+---?color=linear-gradient(180deg, white 26%, black 0%)
 @title[Planejamento]
 
-@snap[north span-50]
+@snap[north span-70]
 ![Planejamento](assets/img/planning.png)
 ## Planejamento
 @snapend
 
-@snap[south span-50]
+@snap[south span-80]
 Distribuição das demandas no tempo (milestone)
 @snapend
 
----
+---?color=linear-gradient(180deg, white 26%, black 0%)
 @title[Codificação]
 
-@snap[north span-50]
+@snap[north span-60]
 ![Codificação](assets/img/coding.png)
 ## Codificação
 @snapend
 
-+++
-@snap[north-west span-30]
-## Codificação
-@snapend
-
-@snap[east span-30]
+@snap[south-west span-40]
 @ul[list-spaced-bullets text-09]
-- Branch (per issue)
+- Branch (por issue)
 - Merge Request
 - Testes(?)
 @ulend
 @snapend
 
----
+---?color=linear-gradient(180deg, white 26%, black 0%)
 @title[Revisão]
 
 @snap[north span-50]
@@ -64,32 +61,22 @@ Distribuição das demandas no tempo (milestone)
 ## Revisão
 @snapend
 
-+++
-@snap[north-west span-30]
-## Revisão
-@snapend
-
-@snap[east span-30]
+@snap[south-west span-30]
 @ul[list-spaced-bullets text-09]
 - Desenvolvedor
 - Testador
 @ulend
 @snapend
 
----
+---?color=linear-gradient(180deg, white 26%, black 0%)
 @title[Implantação]
 
-@snap[north span-50]
+@snap[north span-60]
 ![Implantação](assets/img/deployment.png)
 ## Implantação
 @snapend
 
-+++
-@snap[north-west span-30]
-## Implantação
-@snapend
-
-@snap[east span-30]
+@snap[south-west span-30]
 @ul[list-spaced-bullets text-09]
 - Versionamento
 - Artefatos
